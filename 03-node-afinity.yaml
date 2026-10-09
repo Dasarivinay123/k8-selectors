@@ -18,7 +18,7 @@ spec:
         preference:
           matchExpressions:
           - key: topology.kubernetes.io/zone
-            operator: NotIn
+            operator: In
             values:
             - us-east-1a
       - weight: 10
